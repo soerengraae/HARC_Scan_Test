@@ -80,7 +80,7 @@ static bool device_found(struct bt_data *data, void *user_data)
 		break;
 	case BT_DATA_NAME_COMPLETE:
 	case BT_DATA_NAME_SHORTENED:
-		if (memcmp(data->data, "VCP Renderer", 12) == 0 ||
+		if (memcmp(data->data, "Renderer", 8) == 0 ||
 		    memcmp(data->data, "VCP", 3) == 0) {
 			LOG_INF("Found potential VCP device by name: %s", addr_str);
 			should_connect = true;
