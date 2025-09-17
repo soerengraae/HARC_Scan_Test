@@ -43,6 +43,7 @@ int bt_vcp_vol_ctlr_vol_down_unmute(struct bt_vcp_vol_ctlr *vol_ctlr)
 	return bt_vcp_vol_ctlr_vol_down(vol_ctlr);
 }
 
+
 /* VCP callback implementations */
 static void vcp_discover_cb(struct bt_vcp_vol_ctlr *vcp_vol_ctlr, int err,
 			    uint8_t vocs_count, uint8_t aics_count)
@@ -132,6 +133,7 @@ void vcp_controller_demo(void)
 {
 	int err;
 	static uint8_t demo_state = 0;
+	static uint8_t abs_volume = 50;
 
 	if (!vol_ctlr || !vcp_discovered) {
 		return;
@@ -167,13 +169,21 @@ void vcp_controller_demo(void)
 		}
 		break;
 	case 4:
+		abs_volume = (abs_volume == 50) ? 80 : 50;
+		LOG_INF("Setting absolute volume to %u...", abs_volume);
+		err = bt_vcp_vol_ctlr_set_vol(vol_ctlr, abs_volume);
+		if (err) {
+			LOG_ERR("Failed to set absolute volume (err %d)", err);
+		}
+		break;
+	case 5:
 		LOG_INF("Requesting mute...");
 		err = bt_vcp_vol_ctlr_mute(vol_ctlr);
 		if (err) {
 			LOG_ERR("Failed to mute (err %d)", err);
 		}
 		break;
-	case 5:
+	case 6:
 		LOG_INF("Requesting unmute...");
 		err = bt_vcp_vol_ctlr_unmute(vol_ctlr);
 		if (err) {
@@ -182,5 +192,5 @@ void vcp_controller_demo(void)
 		break;
 	}
 
-	demo_state = (demo_state + 1) % 6; // Cycle through 6 operations
+	demo_state = (demo_state + 1) % 7; // Cycle through 7 operations
 }
