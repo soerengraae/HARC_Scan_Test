@@ -57,31 +57,9 @@ static bool device_found(struct bt_data *data, void *user_data)
 	bt_addr_le_to_str(addr, addr_str, sizeof(addr_str));
 
 	switch (data->type) {
-	case BT_DATA_UUID16_SOME:
-	case BT_DATA_UUID16_ALL:
-		if (data->data_len % sizeof(uint16_t) != 0U) {
-			LOG_WRN("AD malformed");
-			return true;
-		}
-
-		for (i = 0; i < data->data_len; i += sizeof(uint16_t)) {
-			const struct bt_uuid *uuid;
-			uint16_t u16;
-
-			memcpy(&u16, &data->data[i], sizeof(u16));
-			uuid = BT_UUID_DECLARE_16(sys_le16_to_cpu(u16));
-
-			if (bt_uuid_cmp(uuid, BT_UUID_VCS) == 0) {
-				LOG_INF("Found VCP device: %s", addr_str);
-				should_connect = true;
-				return false;
-			}
-		}
-		break;
 	case BT_DATA_NAME_COMPLETE:
 	case BT_DATA_NAME_SHORTENED:
-		if (memcmp(data->data, "Renderer", 8) == 0 ||
-		    memcmp(data->data, "VCP", 3) == 0) {
+		if (memcmp(data->data, "Renderer", 8) == 0) {
 			LOG_INF("Found potential VCP device by name: %s", addr_str);
 			should_connect = true;
 			return false;

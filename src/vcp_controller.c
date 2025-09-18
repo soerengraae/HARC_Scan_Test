@@ -8,40 +8,8 @@ struct bt_conn *default_conn;
 struct bt_vcp_vol_ctlr *vol_ctlr;
 bool vcp_discovered = false;
 
-/* Custom VCP function implementations */
-int bt_vcp_vol_ctlr_vol_up_unmute(struct bt_vcp_vol_ctlr *vol_ctlr)
-{
-	int err;
-
-	/* First unmute */
-	err = bt_vcp_vol_ctlr_unmute(vol_ctlr);
-	if (err) {
-		return err;
-	}
-
-	/* Small delay to ensure unmute completes */
-	k_sleep(K_MSEC(50));
-
-	/* Then volume up */
-	return bt_vcp_vol_ctlr_vol_up(vol_ctlr);
-}
-
-int bt_vcp_vol_ctlr_vol_down_unmute(struct bt_vcp_vol_ctlr *vol_ctlr)
-{
-	int err;
-
-	/* First unmute */
-	err = bt_vcp_vol_ctlr_unmute(vol_ctlr);
-	if (err) {
-		return err;
-	}
-
-	/* Small delay to ensure unmute completes */
-	k_sleep(K_MSEC(50));
-
-	/* Then volume down */
-	return bt_vcp_vol_ctlr_vol_down(vol_ctlr);
-}
+/* Note: bt_vcp_vol_ctlr_vol_up_unmute and bt_vcp_vol_ctlr_vol_down_unmute
+ * are provided by Zephyr as atomic operations - no custom implementation needed */
 
 
 /* VCP callback implementations */
@@ -98,12 +66,34 @@ static void vcp_unmute_cb(struct bt_vcp_vol_ctlr *vol_ctlr, int err)
 	LOG_INF("Unmute success");
 }
 
+static void vcp_vol_up_unmute_cb(struct bt_vcp_vol_ctlr *vol_ctlr, int err)
+{
+	if (err) {
+		LOG_ERR("VCP volume up and unmute error (err %d)", err);
+		return;
+	}
+
+	LOG_INF("Volume up and unmute success");
+}
+
+static void vcp_vol_down_unmute_cb(struct bt_vcp_vol_ctlr *vol_ctlr, int err)
+{
+	if (err) {
+		LOG_ERR("VCP volume down and unmute error (err %d)", err);
+		return;
+	}
+
+	LOG_INF("Volume down and unmute success");
+}
+
 static struct bt_vcp_vol_ctlr_cb vcp_callbacks = {
 	.discover = vcp_discover_cb,
 	.vol_down = vcp_vol_down_cb,
 	.vol_up = vcp_vol_up_cb,
 	.mute = vcp_mute_cb,
 	.unmute = vcp_unmute_cb,
+	.vol_up_unmute = vcp_vol_up_unmute_cb,
+	.vol_down_unmute = vcp_vol_down_unmute_cb,
 };
 
 /* Initialize VCP controller */
@@ -156,14 +146,14 @@ void vcp_controller_demo(void)
 		break;
 	case 2:
 		LOG_INF("Requesting volume up and unmute...");
-		err = bt_vcp_vol_ctlr_vol_up_unmute(vol_ctlr);
+		err = bt_vcp_vol_ctlr_unmute_vol_up(vol_ctlr);
 		if (err) {
 			LOG_ERR("Failed to volume up and unmute (err %d)", err);
 		}
 		break;
 	case 3:
 		LOG_INF("Requesting volume down and unmute...");
-		err = bt_vcp_vol_ctlr_vol_down_unmute(vol_ctlr);
+		err = bt_vcp_vol_ctlr_unmute_vol_down(vol_ctlr);
 		if (err) {
 			LOG_ERR("Failed to volume down and unmute (err %d)", err);
 		}

@@ -16,8 +16,7 @@ int vcp_controller_init(void);
 void vcp_controller_demo(void);
 void vcp_controller_reset_state(void);
 
-/* Custom VCP function implementations */
-int bt_vcp_vol_ctlr_vol_up_unmute(struct bt_vcp_vol_ctlr *vol_ctlr);
-int bt_vcp_vol_ctlr_vol_down_unmute(struct bt_vcp_vol_ctlr *vol_ctlr);
+/* Note: bt_vcp_vol_ctlr_vol_up_unmute and bt_vcp_vol_ctlr_vol_down_unmute
+ * are provided by Zephyr VCP API - no custom declarations needed */
 
 #endif /* VCP_CONTROLLER_H */
