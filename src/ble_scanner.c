@@ -73,6 +73,36 @@ static bool save_discovered_device(const bt_addr_le_t *addr, char *name)
 	return true;
 }
 
+struct bt_device_node *search_discovered_devices_by_addr(const bt_addr_le_t *addr)
+{
+	struct bt_device_node *current = discovered_devices;
+	
+	while (current) {
+		if (!bt_addr_le_cmp(&current->addr, addr)) {
+			return current;
+		}
+
+		current = current->next;
+	}
+
+	return NULL;
+}
+
+struct bt_device_node *search_discovered_devices_by_name(const char *name)
+{
+	struct bt_device_node *current = discovered_devices;
+	
+	while (current) {
+		if (strcmp(current->name, name) == 0) {
+			return current;
+		}
+
+		current = current->next;
+	}
+
+	return NULL;
+}
+
 void print_discovered_devices(void)
 {
 	if (!discovered_devices) {
@@ -123,37 +153,42 @@ static bool device_found(struct bt_data *data, void *user_data)
 	struct device_info *info = (struct device_info *)user_data;
 	char addr_str[BT_ADDR_LE_STR_LEN];
 	bt_addr_le_to_str(info->addr, addr_str, sizeof(addr_str));
-	// if (strcmp(addr_str, "60:41:42:63:63:53 (random)") != 0)
-	// {
-	// 	return false; // Skip processing for this specific address
-	// }
 
-	/* Check for Hearing Access Service UUID */
-	if (data->type == BT_DATA_UUID16_ALL || data->type == BT_DATA_UUID16_SOME) {
-		if (data->data_len % 2 != 0) {
-			LOG_WRN("Invalid UUID16 data length from %s", addr_str);
-			return true;
-		}
+	struct bt_device_node *existing_device = search_discovered_devices_by_addr(info->addr);
+	if (existing_device && existing_device->name[0] != '\0')
+		LOG_DBG("Advertisement data type 0x%X len %u from %s, %s", data->type, data->data_len, addr_str, existing_device->name);
 
-		for (size_t i = 0; i < data->data_len; i += 2) {
-			uint16_t uuid_val = sys_get_le16(&data->data[i]);
-			struct bt_uuid_16 uuid = BT_UUID_INIT_16(uuid_val);
+	switch (data->type) {
+		case BT_DATA_SVC_DATA16:
+			for (size_t i = 0; i < data->data_len; i++) {
+				uint16_t uuid_val = sys_get_le16(&data->data[i]);
+				struct bt_uuid_16 uuid = BT_UUID_INIT_16(uuid_val);
 
-			LOG_DBG("Found UUID 0x%04X from %s", uuid_val, addr_str);
+				LOG_DBG("Service UUID 0x%04X", uuid_val);
 
-			if (bt_uuid_cmp(&uuid, BT_UUID_HAS) == 0) {
-				info->has_service = true;
-				break;
+				if (bt_uuid_cmp(&uuid.uuid, BT_UUID_HAS) == 0) {
+					info->has_service = true;
+					break;
+				}
 			}
-		}
-	}
-	/* Extract device name */
-	else if (data->type == BT_DATA_NAME_COMPLETE || data->type == BT_DATA_NAME_SHORTENED) {
-		size_t name_len = MIN(data->data_len, BT_NAME_MAX_LEN);
-		memcpy(info->name, data->data, name_len);
-		info->name[name_len] = '\0';
-		info->has_name = true;
-		LOG_DBG("Found name '%s' from %s", info->name, addr_str);
+
+			break;
+
+		case BT_DATA_NAME_COMPLETE:
+		case BT_DATA_NAME_SHORTENED:
+			size_t name_len = MIN(data->data_len, BT_NAME_MAX_LEN);
+			memcpy(info->name, data->data, name_len);
+			info->name[name_len] = '\0';
+			info->has_name = true;
+			if (existing_device == NULL) {
+				LOG_DBG("Complete name '%s'", info->name);
+				save_discovered_device(info->addr, info->name);
+			}
+
+			break;
+
+		default:
+			return true; // Ignore other data types
 	}
 
 	return true;
@@ -174,13 +209,6 @@ static void device_found_cb(const bt_addr_le_t *addr, int8_t rssi, uint8_t type,
 
 	/* Parse advertisement data to extract HAS service and name */
 	bt_data_parse(ad, device_found, &info);
-
-	/* Only save and print devices that have both HAS and a valid name */
-	if (info.has_service && info.has_name && strlen(info.name) > 0) {
-		if (save_discovered_device(addr, info.name)) {
-			LOG_INF("Found HAS device: %s (%s)", info.name, addr_str);
-		}
-	}
 }
 
 /* Start BLE scanning */
