@@ -3,11 +3,12 @@
 #include <zephyr/sys/byteorder.h>
 #include <zephyr/bluetooth/uuid.h>
 #include <zephyr/bluetooth/audio/vcp.h>
+#include <string.h>
 
 LOG_MODULE_REGISTER(ble_scanner, LOG_LEVEL_DBG);
 
-#define MAX_DISCOVERED_DEVICES_MEMORY_SIZE 2048 // 2 KB
-#define BT_NAME_MAX_LEN 30
+#define MAX_DISCOVERED_DEVICES_MEMORY_SIZE 1024 // 1 KB
+#define BT_NAME_MAX_LEN 12
 
 struct k_work_delayable printDevicesWork;
 
@@ -17,9 +18,6 @@ static void printDevicesHandler(struct k_work *work)
 	print_discovered_devices();
 	k_work_schedule(&printDevicesWork, K_SECONDS(10));
 }
-
-static bool should_connect = false;
-static int scan_retry_count = 0;
 
 // Linked list of discovered device address to avoid printing duplicates
 static struct bt_device_node {
@@ -77,6 +75,11 @@ static bool save_discovered_device(const bt_addr_le_t *addr, char *name)
 
 void print_discovered_devices(void)
 {
+	if (!discovered_devices) {
+		LOG_INF("No devices discovered yet.");
+		return;
+	}
+
 	LOG_INF("Discovered devices:");
 	struct bt_device_node *current = discovered_devices;
 	if (!current) {
@@ -105,40 +108,79 @@ BT_CONN_CB_DEFINE(conn_callbacks) = {
 	.disconnected = disconnected,
 };
 
-/* Device discovery functions */
+/* Structure to pass data between parsing callbacks */
+struct device_info {
+	bt_addr_le_t *addr;
+	char name[BT_NAME_MAX_LEN + 1];
+	bool has_service;
+	bool has_name;
+};
+
+/* Device discovery function
+   Extracts HAS service and device name from advertisement data */
 static bool device_found(struct bt_data *data, void *user_data)
 {
-	bt_addr_le_t *addr = user_data;
+	struct device_info *info = (struct device_info *)user_data;
 	char addr_str[BT_ADDR_LE_STR_LEN];
+	bt_addr_le_to_str(info->addr, addr_str, sizeof(addr_str));
+	// if (strcmp(addr_str, "60:41:42:63:63:53 (random)") != 0)
+	// {
+	// 	return false; // Skip processing for this specific address
+	// }
 
-	bt_addr_le_to_str(addr, addr_str, sizeof(addr_str));
+	/* Check for Hearing Access Service UUID */
+	if (data->type == BT_DATA_UUID16_ALL || data->type == BT_DATA_UUID16_SOME) {
+		if (data->data_len % 2 != 0) {
+			LOG_WRN("Invalid UUID16 data length from %s", addr_str);
+			return true;
+		}
 
-	switch (data->type) {
-		case BT_DATA_NAME_COMPLETE:
-		case BT_DATA_NAME_SHORTENED:
-			char name[BT_NAME_MAX_LEN + 1] = {0};
-			int copy_len = MIN(data->data_len, BT_NAME_MAX_LEN);
-			memcpy(name, data->data, copy_len);
-			name[copy_len] = '\0';
+		for (size_t i = 0; i < data->data_len; i += 2) {
+			uint16_t uuid_val = sys_get_le16(&data->data[i]);
+			struct bt_uuid_16 uuid = BT_UUID_INIT_16(uuid_val);
 
-			if (save_discovered_device(addr, name))
-				LOG_DBG("Device found: %s, Name: %s", addr_str, name);
-			
-			break;
+			LOG_DBG("Found UUID 0x%04X from %s", uuid_val, addr_str);
+
+			if (bt_uuid_cmp(&uuid, BT_UUID_HAS) == 0) {
+				info->has_service = true;
+				break;
+			}
+		}
+	}
+	/* Extract device name */
+	else if (data->type == BT_DATA_NAME_COMPLETE || data->type == BT_DATA_NAME_SHORTENED) {
+		size_t name_len = MIN(data->data_len, BT_NAME_MAX_LEN);
+		memcpy(info->name, data->data, name_len);
+		info->name[name_len] = '\0';
+		info->has_name = true;
+		LOG_DBG("Found name '%s' from %s", info->name, addr_str);
 	}
 
 	return true;
 }
 
-static void device_found_cb(const bt_addr_le_t *addr, int8_t rssi, uint8_t type,
-			    struct net_buf_simple *ad)
+static void device_found_cb(const bt_addr_le_t *addr, int8_t rssi, uint8_t type, struct net_buf_simple *ad)
 {
 	char addr_str[BT_ADDR_LE_STR_LEN];
+	struct device_info info = {0};
+
+	/* Initialize device info structure */
+	info.addr = (bt_addr_le_t *)addr;
+	info.has_service = false;
+	info.has_name = false;
+	memset(info.name, 0, sizeof(info.name));
 
 	bt_addr_le_to_str(addr, addr_str, sizeof(addr_str));
-	should_connect = false;
 
-	bt_data_parse(ad, device_found, (void *)addr);
+	/* Parse advertisement data to extract HAS service and name */
+	bt_data_parse(ad, device_found, &info);
+
+	/* Only save and print devices that have both HAS and a valid name */
+	if (info.has_service && info.has_name && strlen(info.name) > 0) {
+		if (save_discovered_device(addr, info.name)) {
+			LOG_INF("Found HAS device: %s (%s)", info.name, addr_str);
+		}
+	}
 }
 
 /* Start BLE scanning */
@@ -155,7 +197,7 @@ void ble_scanner_start(void)
 		return;
 	}
 
-	LOG_INF("Scanning successfully started");
+	LOG_INF("Scanning for HIs");
 
 	k_work_init_delayable(&printDevicesWork, printDevicesHandler);
 	k_work_schedule(&printDevicesWork, K_SECONDS(10));
@@ -166,10 +208,4 @@ int ble_scanner_init(void)
 {
 	LOG_INF("BLE scanner initialized");
 	return 0;
-}
-
-/* Reset scan retry count */
-void ble_scanner_reset_retry_count(void)
-{
-	scan_retry_count = 0;
 }
