@@ -174,6 +174,26 @@ static bool device_found(struct bt_data *data, void *user_data)
 
 			break;
 
+		case BT_DATA_UUID128_ALL:
+			if (data->data_len % 16 != 0) {
+				LOG_WRN("Invalid UUID128 data length: %u", data->data_len);
+				return true;
+			}
+
+			for (size_t i = 0; i < data->data_len; i++) {
+				uint16_t uuid_val = sys_get_le16(&data->data[i]);
+				struct bt_uuid_16 uuid = BT_UUID_INIT_16(uuid_val);
+
+				LOG_DBG("128-bit UUID 0x%04X", uuid_val);
+
+				if (bt_uuid_cmp(&uuid.uuid, BT_UUID_HAS) == 0) {
+					info->has_service = true;
+					break;
+				}
+			}
+
+			break;
+
 		case BT_DATA_NAME_COMPLETE:
 		case BT_DATA_NAME_SHORTENED:
 			size_t name_len = MIN(data->data_len, BT_NAME_MAX_LEN);
@@ -181,7 +201,7 @@ static bool device_found(struct bt_data *data, void *user_data)
 			info->name[name_len] = '\0';
 			info->has_name = true;
 			if (existing_device == NULL) {
-				LOG_DBG("Complete name '%s'", info->name);
+				LOG_DBG("Found name '%s'", info->name);
 				save_discovered_device(info->addr, info->name);
 			}
 
