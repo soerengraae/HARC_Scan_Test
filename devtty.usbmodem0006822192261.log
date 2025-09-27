@@ -1,0 +1,1020 @@
+[00:00:03.040,069] <dbg> ble_scanner: device_found: 0x23 
+[00:00:03.040,100] <dbg> ble_scanner: device_found: 0x98 
+[00:00:03.040,130] <dbg> ble_scanner: device_found: 0xCA 
+[00:00:03.040,161] <dbg> ble_scanner: device_found: 0x9C 
+[00:00:03.040,161] <dbg> ble_scanner: device_found: 0x76 
+[00:00:03.051,116] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0067
+[00:00:03.088,409] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0075
+[00:00:03.088,439] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+--- 19 messages dropped ---
+[00:00:03.101,715] <dbg> ble_scanner: device_found: Service Data UUID 0xFD44
+--- 3 messages dropped ---
+[00:00:03.101,837] <dbg> ble_scanner: device_found: Service Data UUID 0x0095
+--- 1 messages dropped ---
+[00:00:03.101,867] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:03.101,898] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:03.101,898] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:03.101,928] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 6 messages dropped ---
+[00:00:03.104,766] <dbg> ble_scanner: device_found: 0x01 
+[00:00:03.107,238] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+--- 9 messages dropped ---
+[00:00:03.149,017] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 3 messages dropped ---
+[00:00:03.149,047] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:03.149,383] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:03.149,536] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 3 messages dropped ---
+[00:00:03.149,627] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+--- 3 messages dropped ---
+[00:00:03.149,719] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:03.213,409] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:03.213,439] <dbg> ble_scanner: device_found: Service Data UUID 0x0003
+[00:00:03.213,439] <dbg> ble_scanner: device_found: Service Data UUID 0xFE27
+[00:00:03.219,390] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+--- 6 messages dropped ---
+[00:00:03.288,604] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 10 messages dropped ---
+[00:00:03.331,054] <dbg> ble_scanner: device_found: 0x09 
+[00:00:03.331,085] <dbg> ble_scanner: device_found: 0x08 
+[00:00:03.331,085] <dbg> ble_scanner: device_found: 0x13 
+[00:00:03.331,115] <dbg> ble_scanner: device_found: 0x22 
+[00:00:03.331,115] <dbg> ble_scanner: device_found: 0x0A 
+[00:00:03.331,146] <dbg> ble_scanner: device_found: 0x91 
+[00:00:03.331,146] <dbg> ble_scanner: device_found: 0x9D 
+--- 4 messages dropped ---
+[00:00:03.524,169] <dbg> ble_scanner: device_found: 0xE0 
+--- 38 messages dropped ---
+[00:00:03.532,867] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:03.533,325] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:03.533,355] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+[00:00:03.533,355] <dbg> ble_scanner: device_found: 0x10 
+[00:00:03.533,386] <dbg> ble_scanner: device_found: 0x05 
+[00:00:03.533,416] <dbg> ble_scanner: device_found: 0x36 
+[00:00:03.533,447] <dbg> ble_scanner: device_found: 0x1C 
+--- 4 messages dropped ---
+[00:00:03.588,012] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+[00:00:03.588,043] <dbg> ble_scanner: device_found: 0x10 
+--- 18 messages dropped ---
+[00:00:03.805,206] <dbg> ble_scanner: device_found: 0x37 
+--- 17 messages dropped ---
+[00:00:03.805,236] <dbg> ble_scanner: device_found: 0x1D 
+[00:00:03.805,236] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:03.805,267] <dbg> ble_scanner: device_found: 0x52 
+[00:00:03.805,267] <dbg> ble_scanner: device_found: 0x41 
+--- 3 messages dropped ---
+[00:00:03.823,730] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:03.823,944] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:03.823,974] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:03.824,279] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:03.824,462] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:03.824,493] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:03.824,493] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:03.824,523] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+--- 9 messages dropped ---
+[00:00:03.825,714] <dbg> ble_scanner: device_found: 0x20 
+[00:00:03.825,744] <dbg> ble_scanner: device_found: 0x22 
+[00:00:03.825,775] <dbg> ble_scanner: device_found: 0x8E 
+[00:00:03.825,775] <dbg> ble_scanner: device_found: 0x11 
+[00:00:03.825,805] <dbg> ble_scanner: device_found: 0x9D 
+[00:00:03.825,836] <dbg> ble_scanner: device_found: 0x13 
+--- 4 messages dropped ---
+[00:00:03.886,749] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:03.886,779] <dbg> ble_scanner: device_found: 0x0E 
+--- 8 messages dropped ---
+[00:00:03.926,818] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 9 messages dropped ---
+[00:00:03.926,849] <dbg> ble_scanner: device_found: 0x01 
+[00:00:03.926,849] <dbg> ble_scanner: device_found: 0x09 
+[00:00:03.926,879] <dbg> ble_scanner: device_found: 0x20 
+[00:00:03.926,910] <dbg> ble_scanner: device_found: 0x22 
+[00:00:03.926,910] <dbg> ble_scanner: device_found: 0x95 
+[00:00:03.926,940] <dbg> ble_scanner: device_found: 0x46 
+[00:00:03.926,971] <dbg> ble_scanner: device_found: 0xD3 
+[00:00:03.927,001] <dbg> ble_scanner: device_found: 0x59 
+[00:00:03.935,607] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:03.935,638] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:03.935,668] <dbg> ble_scanner: device_found: 0x01 
+[00:00:03.935,699] <dbg> ble_scanner: device_found: 0x09 
+[00:00:03.935,699] <dbg> ble_scanner: device_found: 0x20 
+[00:00:03.935,729] <dbg> ble_scanner: device_found: 0x22 
+[00:00:03.935,760] <dbg> ble_scanner: device_found: 0x40 
+[00:00:03.935,791] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:03.935,821] <dbg> ble_scanner: device_found: 0xEE 
+--- 7 messages dropped ---
+[00:00:03.949,340] <dbg> ble_scanner: device_found: 0x49 
+[00:00:03.949,371] <dbg> ble_scanner: device_found: 0x29 
+[00:00:03.949,371] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:03.949,401] <dbg> ble_scanner: device_found: 0x60 
+[00:00:03.989,257] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:04.044,921] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+--- 5 messages dropped ---
+[00:00:04.055,938] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.055,938] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.055,969] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.055,969] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:04.055,999] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.055,999] <dbg> ble_scanner: device_found: 0x22 
+[00:00:04.056,030] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:04.056,030] <dbg> ble_scanner: device_found: 0xD6 
+[00:00:04.056,030] <dbg> ble_scanner: device_found: 0x21 
+[00:00:04.056,060] <dbg> ble_scanner: device_found: 0xE0 
+--- 8 messages dropped ---
+[00:00:04.065,582] <dbg> ble_scanner: device_found: Advertisement data type 0x7 len 16 from 70:4A:06:CA:37:5E (random), HARC HI
+--- 8 messages dropped ---
+[00:00:04.072,967] <dbg> ble_scanner: device_found: 0x02 
+--- 8 messages dropped ---
+[00:00:04.177,856] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.177,886] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:04.177,886] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.177,917] <dbg> ble_scanner: device_found: 0x09 
+--- 21 messages dropped ---
+[00:00:04.182,281] <dbg> ble_scanner: device_found: 0x80 
+[00:00:04.182,312] <dbg> ble_scanner: device_found: 0x60 
+--- 6 messages dropped ---
+[00:00:04.226,593] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:04.226,593] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:04.226,928] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:04.227,081] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:04.227,111] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:04.227,142] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:04.227,142] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+[00:00:04.227,172] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+[00:00:04.227,172] <dbg> ble_scanner: device_found: Service Data UUID 0x5220
+[00:00:04.227,203] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:04.227,233] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+[00:00:04.227,233] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:04.240,142] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:04.240,173] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+--- 1 messages dropped ---
+[00:00:04.240,203] <dbg> ble_scanner: device_found: 0x07 
+[00:00:04.240,234] <dbg> ble_scanner: device_found: 0x3A 
+[00:00:04.240,264] <dbg> ble_scanner: device_found: 0x1F 
+[00:00:04.240,295] <dbg> ble_scanner: device_found: 0xFC 
+[00:00:04.240,325] <dbg> ble_scanner: device_found: 0xFE 
+--- 1 messages dropped ---
+[00:00:04.240,356] <dbg> ble_scanner: device_found: 0x39 
+[00:00:04.297,424] <dbg> ble_scanner: device_found: Service Data UUID 0xFD44
+--- 8 messages dropped ---
+[00:00:04.297,576] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 9 messages dropped ---
+[00:00:04.353,057] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.353,088] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.353,088] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.353,088] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.353,118] <dbg> ble_scanner: device_found: 0x22 
+--- 5 messages dropped ---
+[00:00:04.355,163] <dbg> ble_scanner: device_found: Manufacturer data (8 bytes): 
+[00:00:04.355,194] <dbg> ble_scanner: device_found: 0x10 
+[00:00:04.355,224] <dbg> ble_scanner: device_found: 0x06 
+--- 8 messages dropped ---
+[00:00:04.362,426] <dbg> ble_scanner: device_found: 0x10 
+[00:00:04.362,457] <dbg> ble_scanner: device_found: 0x05 
+[00:00:04.362,457] <dbg> ble_scanner: device_found: 0x36 
+[00:00:04.362,487] <dbg> ble_scanner: device_found: 0x1C 
+[00:00:04.362,548] <dbg> ble_scanner: device_found: 0x06 
+--- 6 messages dropped ---
+[00:00:04.418,487] <dbg> ble_scanner: device_found: 0x23 
+[00:00:04.418,518] <dbg> ble_scanner: device_found: 0x98 
+[00:00:04.418,518] <dbg> ble_scanner: device_found: 0xCA 
+--- 4 messages dropped ---
+[00:00:04.469,573] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.469,604] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:04.469,604] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.469,635] <dbg> ble_scanner: device_found: 0x22 
+[00:00:04.469,635] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:04.469,665] <dbg> ble_scanner: device_found: 0xD6 
+[00:00:04.469,665] <dbg> ble_scanner: device_found: 0x21 
+[00:00:04.469,696] <dbg> ble_scanner: device_found: 0xE0 
+--- 2 messages dropped ---
+[00:00:04.472,381] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.472,412] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.472,412] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.472,442] <dbg> ble_scanner: device_found: 0x22 
+[00:00:04.472,473] <dbg> ble_scanner: device_found: 0x49 
+[00:00:04.472,503] <dbg> ble_scanner: device_found: 0x29 
+[00:00:04.472,503] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:04.472,534] <dbg> ble_scanner: device_found: 0x60 
+[00:00:04.476,989] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.477,020] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:04.477,050] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.477,050] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.477,081] <dbg> ble_scanner: device_found: 0x21 
+[00:00:04.477,111] <dbg> ble_scanner: device_found: 0x2A 
+[00:00:04.477,142] <dbg> ble_scanner: device_found: 0x52 
+[00:00:04.477,172] <dbg> ble_scanner: device_found: 0x02 
+[00:00:04.477,172] <dbg> ble_scanner: device_found: 0x14 
+[00:00:04.477,203] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:04.485,229] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:04.485,260] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+--- 12 messages dropped ---
+[00:00:04.531,951] <dbg> ble_scanner: device_found: 0x53 
+[00:00:04.531,982] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:04.548,645] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.548,675] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.548,706] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.548,706] <dbg> ble_scanner: device_found: 0x09 
+--- 20 messages dropped ---
+[00:00:04.650,360] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+--- 7 messages dropped ---
+[00:00:04.662,109] <dbg> ble_scanner: device_found: 0x11 
+--- 18 messages dropped ---
+[00:00:04.710,510] <dbg> ble_scanner: device_found: 0xF9 
+[00:00:04.710,510] <dbg> ble_scanner: device_found: 0x25 
+[00:00:04.710,540] <dbg> ble_scanner: device_found: 0x9E 
+[00:00:04.715,148] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:04.715,332] <dbg> ble_scanner: device_found: Advertisement data type 0xA len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 2 messages dropped ---
+[00:00:04.715,728] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+--- 7 messages dropped ---
+[00:00:04.716,400] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:04.716,430] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+[00:00:04.716,430] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:04.717,071] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 49:13:9A:DC:6D:2E (random), C7 TEST HI
+[00:00:04.722,564] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.722,595] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.722,625] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.722,625] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.722,656] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.722,686] <dbg> ble_scanner: device_found: 0x22 
+[00:00:04.722,717] <dbg> ble_scanner: device_found: 0xD5 
+[00:00:04.722,717] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:04.722,747] <dbg> ble_scanner: device_found: 0x61 
+[00:00:04.722,778] <dbg> ble_scanner: device_found: 0xF6 
+[00:00:04.769,439] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.769,470] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.769,470] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.769,500] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.769,500] <dbg> ble_scanner: device_found: 0x20 
+[00:00:04.769,531] <dbg> ble_scanner: device_found: 0x22 
+[00:00:04.769,561] <dbg> ble_scanner: device_found: 0x40 
+[00:00:04.769,561] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:04.769,592] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:04.769,622] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:04.787,231] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.787,261] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 15 messages dropped ---
+[00:00:04.788,146] <dbg> ble_scanner: device_found: 0x29 
+[00:00:04.788,177] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:04.788,177] <dbg> ble_scanner: device_found: 0x60 
+[00:00:04.789,062] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.789,062] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:04.789,093] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.789,123] <dbg> ble_scanner: device_found: 0x0F 
+--- 5 messages dropped ---
+[00:00:04.789,276] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:04.792,114] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.792,114] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:04.792,144] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.792,175] <dbg> ble_scanner: device_found: 0x09 
+[00:00:04.792,205] <dbg> ble_scanner: device_found: 0x21 
+[00:00:04.792,205] <dbg> ble_scanner: device_found: 0x2A 
+[00:00:04.792,236] <dbg> ble_scanner: device_found: 0x52 
+--- 6 messages dropped ---
+[00:00:04.792,877] <dbg> ble_scanner: device_found: 0x07 
+--- 12 messages dropped ---
+[00:00:04.828,704] <dbg> ble_scanner: device_found: 0x0A 
+--- 10 messages dropped ---
+[00:00:04.887,145] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:04.887,176] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:04.887,176] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:04.887,207] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:04.900,115] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:04.900,146] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+--- 14 messages dropped ---
+[00:00:04.945,312] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:04.945,312] <dbg> ble_scanner: device_found: 0x42 
+[00:00:04.945,343] <dbg> ble_scanner: device_found: 0x04 
+[00:00:04.945,343] <dbg> ble_scanner: device_found: 0x01 
+[00:00:04.945,373] <dbg> ble_scanner: device_found: 0x80 
+[00:00:04.945,373] <dbg> ble_scanner: device_found: 0x60 
+[00:00:04.945,404] <dbg> ble_scanner: device_found: 0x00 
+[00:00:04.945,434] <dbg> ble_scanner: device_found: 0x7C 
+[00:00:04.945,465] <dbg> ble_scanner: device_found: 0x2D 
+[00:00:04.965,057] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:04.965,087] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 7 messages dropped ---
+[00:00:04.965,270] <dbg> ble_scanner: device_found: 0x59 
+[00:00:04.967,559] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:04.967,590] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+[00:00:04.967,590] <dbg> ble_scanner: device_found: 0x10 
+[00:00:04.967,620] <dbg> ble_scanner: device_found: 0x05 
+--- 23 messages dropped ---
+[00:00:05.127,410] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+--- 16 messages dropped ---
+[00:00:05.193,145] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+--- 1 messages dropped ---
+[00:00:05.193,176] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:05.193,176] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:05.193,176] <dbg> ble_scanner: device_found: 0x0E 
+[00:00:05.193,206] <dbg> ble_scanner: device_found: 0x08 
+[00:00:05.193,206] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:05.193,237] <dbg> ble_scanner: device_found: 0x51 
+[00:00:05.193,237] <dbg> ble_scanner: device_found: 0x3F 
+[00:00:05.193,267] <dbg> ble_scanner: device_found: 0x53 
+[00:00:05.193,267] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:05.194,213] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:05.194,244] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:05.194,274] <dbg> ble_scanner: device_found: 0x10 
+[00:00:05.194,274] <dbg> ble_scanner: device_found: 0x07 
+[00:00:05.194,305] <dbg> ble_scanner: device_found: 0x33 
+[00:00:05.194,335] <dbg> ble_scanner: device_found: 0x1F 
+[00:00:05.194,366] <dbg> ble_scanner: device_found: 0x1D 
+[00:00:05.194,396] <dbg> ble_scanner: device_found: 0x26 
+[00:00:05.194,427] <dbg> ble_scanner: device_found: 0x10 
+[00:00:05.194,458] <dbg> ble_scanner: device_found: 0xDE 
+[00:00:05.198,272] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 49:13:9A:DC:6D:2E (random), C7 TEST HI
+[00:00:05.207,977] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.207,977] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:05.208,007] <dbg> ble_scanner: device_found: 0x01 
+--- 5 messages dropped ---
+[00:00:05.208,129] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:05.208,160] <dbg> ble_scanner: device_found: 0x60 
+--- 11 messages dropped ---
+[00:00:05.251,708] <dbg> ble_scanner: device_found: Advertisement data type 0xA len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:05.251,861] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:05.252,105] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 1 messages dropped ---
+[00:00:05.269,195] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+--- 12 messages dropped ---
+[00:00:05.269,226] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:05.269,226] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.269,256] <dbg> ble_scanner: device_found: Service Data UUID 0x0600
+[00:00:05.269,287] <dbg> ble_scanner: device_found: Service Data UUID 0x5120
+[00:00:05.269,287] <dbg> ble_scanner: device_found: Service Data UUID 0x1046
+[00:00:05.269,317] <dbg> ble_scanner: device_found: Service Data UUID 0x8545
+[00:00:05.269,317] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:05.308,013] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0067
+[00:00:05.389,404] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.389,404] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:05.389,434] <dbg> ble_scanner: device_found: 0x01 
+[00:00:05.389,434] <dbg> ble_scanner: device_found: 0x09 
+[00:00:05.389,465] <dbg> ble_scanner: device_found: 0x20 
+[00:00:05.389,465] <dbg> ble_scanner: device_found: 0x22 
+[00:00:05.389,465] <dbg> ble_scanner: device_found: 0x40 
+[00:00:05.389,495] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:05.389,495] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:05.389,526] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:05.390,045] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:05.390,045] <dbg> ble_scanner: device_found: Manufacturer data (20 bytes): 
+[00:00:05.390,075] <dbg> ble_scanner: device_found: 0x09 
+[00:00:05.390,075] <dbg> ble_scanner: device_found: 0x08 
+[00:00:05.390,106] <dbg> ble_scanner: device_found: 0x13 
+[00:00:05.390,106] <dbg> ble_scanner: device_found: 0x22 
+[00:00:05.390,136] <dbg> ble_scanner: device_found: 0x0A 
+[00:00:05.390,136] <dbg> ble_scanner: device_found: 0x91 
+[00:00:05.390,167] <dbg> ble_scanner: device_found: 0x9D 
+[00:00:05.390,167] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:05.425,109] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:05.425,140] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+[00:00:05.425,170] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.425,170] <dbg> ble_scanner: device_found: Service Data UUID 0x2100
+[00:00:05.425,201] <dbg> ble_scanner: device_found: Service Data UUID 0x5BF6
+[00:00:05.441,009] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.441,040] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+--- 21 messages dropped ---
+[00:00:05.511,718] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 9 messages dropped ---
+[00:00:05.511,749] <dbg> ble_scanner: device_found: Service Data UUID 0x2015
+[00:00:05.511,779] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.511,779] <dbg> ble_scanner: device_found: Service Data UUID 0x0095
+[00:00:05.511,810] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.511,840] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.511,871] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.511,871] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.511,901] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:05.545,227] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.545,227] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:05.545,257] <dbg> ble_scanner: device_found: 0x01 
+[00:00:05.545,257] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:05.545,288] <dbg> ble_scanner: device_found: 0x20 
+[00:00:05.545,318] <dbg> ble_scanner: device_found: 0x22 
+[00:00:05.545,349] <dbg> ble_scanner: device_found: 0x50 
+[00:00:05.545,379] <dbg> ble_scanner: device_found: 0xE6 
+[00:00:05.545,379] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:05.545,410] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:05.563,537] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:05.563,568] <dbg> ble_scanner: device_found: Manufacturer data (4 bytes): 
+[00:00:05.563,598] <dbg> ble_scanner: device_found: 0x12 
+[00:00:05.563,598] <dbg> ble_scanner: device_found: 0x02 
+[00:00:05.563,629] <dbg> ble_scanner: device_found: 0x00 
+[00:00:05.563,659] <dbg> ble_scanner: device_found: 0x03 
+[00:00:05.618,103] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:05.618,103] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:05.618,133] <dbg> ble_scanner: device_found: 0x10 
+[00:00:05.618,133] <dbg> ble_scanner: device_found: 0x07 
+[00:00:05.618,164] <dbg> ble_scanner: device_found: 0x3A 
+[00:00:05.618,164] <dbg> ble_scanner: device_found: 0x1F 
+[00:00:05.618,194] <dbg> ble_scanner: device_found: 0xFC 
+[00:00:05.618,194] <dbg> ble_scanner: device_found: 0xFE 
+[00:00:05.618,225] <dbg> ble_scanner: device_found: 0x3A 
+[00:00:05.618,255] <dbg> ble_scanner: device_found: 0x39 
+[00:00:05.631,530] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:05.733,306] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.733,337] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:05.733,337] <dbg> ble_scanner: device_found: 0x01 
+[00:00:05.733,367] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:05.733,367] <dbg> ble_scanner: device_found: 0x20 
+[00:00:05.733,398] <dbg> ble_scanner: device_found: 0x22 
+[00:00:05.733,398] <dbg> ble_scanner: device_found: 0x9A 
+--- 10 messages dropped ---
+[00:00:05.743,438] <dbg> ble_scanner: device_found: 0x51 
+[00:00:05.743,469] <dbg> ble_scanner: device_found: 0x3F 
+[00:00:05.743,499] <dbg> ble_scanner: device_found: 0x53 
+[00:00:05.743,530] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:05.747,009] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:05.747,039] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+[00:00:05.747,039] <dbg> ble_scanner: device_found: 0x10 
+[00:00:05.747,070] <dbg> ble_scanner: device_found: 0x05 
+--- 8 messages dropped ---
+[00:00:05.788,269] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 5 messages dropped ---
+[00:00:05.788,818] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+[00:00:05.788,848] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+[00:00:05.788,879] <dbg> ble_scanner: device_found: Service Data UUID 0x5220
+[00:00:05.788,879] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:05.788,909] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+--- 6 messages dropped ---
+[00:00:05.790,954] <dbg> ble_scanner: device_found: 0x98 
+[00:00:05.790,985] <dbg> ble_scanner: device_found: 0xCA 
+[00:00:05.791,015] <dbg> ble_scanner: device_found: 0x9C 
+--- 7 messages dropped ---
+[00:00:05.802,581] <dbg> ble_scanner: device_found: 0x95 
+[00:00:05.802,612] <dbg> ble_scanner: device_found: 0x46 
+[00:00:05.802,612] <dbg> ble_scanner: device_found: 0xD3 
+[00:00:05.802,642] <dbg> ble_scanner: device_found: 0x59 
+[00:00:05.807,525] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.807,556] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 5 messages dropped ---
+[00:00:05.807,678] <dbg> ble_scanner: device_found: 0x11 
+--- 9 messages dropped ---
+[00:00:05.810,150] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:05.810,150] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:05.810,180] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:05.848,358] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:05.848,388] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:05.848,388] <dbg> ble_scanner: device_found: 0x01 
+[00:00:05.848,419] <dbg> ble_scanner: device_found: 0x09 
+[00:00:05.848,419] <dbg> ble_scanner: device_found: 0x21 
+[00:00:05.848,449] <dbg> ble_scanner: device_found: 0x2A 
+[00:00:05.848,480] <dbg> ble_scanner: device_found: 0x52 
+--- 7 messages dropped ---
+[00:00:05.866,882] <dbg> ble_scanner: device_found: 0x20 
+[00:00:05.866,882] <dbg> ble_scanner: device_found: 0x22 
+[00:00:05.866,912] <dbg> ble_scanner: device_found: 0x9E 
+[00:00:05.866,943] <dbg> ble_scanner: device_found: 0x1B 
+[00:00:05.867,004] <dbg> ble_scanner: device_found: 0x55 
+[00:00:05.867,004] <dbg> ble_scanner: device_found: 0xF9 
+[00:00:05.980,224] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+--- 23 messages dropped ---
+[00:00:06.043,731] <dbg> ble_scanner: device_found: 0x20 
+--- 5 messages dropped ---
+[00:00:06.046,234] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:06.046,264] <dbg> ble_scanner: device_found: Manufacturer data (4 bytes): 
+[00:00:06.046,295] <dbg> ble_scanner: device_found: 0x12 
+[00:00:06.046,325] <dbg> ble_scanner: device_found: 0x02 
+[00:00:06.046,325] <dbg> ble_scanner: device_found: 0x00 
+--- 5 messages dropped ---
+[00:00:06.047,149] <dbg> ble_scanner: device_found: 0x08 
+[00:00:06.047,180] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:06.047,180] <dbg> ble_scanner: device_found: 0x51 
+--- 16 messages dropped ---
+[00:00:06.152,587] <dbg> ble_scanner: device_found: 128-bit UUID: 7D74F4BD-C74A-4431-862C-CCE884371592
+[00:00:06.153,076] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 70:4A:06:CA:37:5E (random), HARC HI
+[00:00:06.164,031] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:06.164,062] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:06.164,093] <dbg> ble_scanner: device_found: 0x10 
+[00:00:06.164,093] <dbg> ble_scanner: device_found: 0x07 
+--- 14 messages dropped ---
+[00:00:06.218,322] <dbg> ble_scanner: device_found: 0x22 
+--- 10 messages dropped ---
+[00:00:06.218,322] <dbg> ble_scanner: device_found: 0x95 
+[00:00:06.218,353] <dbg> ble_scanner: device_found: 0x46 
+[00:00:06.218,383] <dbg> ble_scanner: device_found: 0xD3 
+[00:00:06.218,414] <dbg> ble_scanner: device_found: 0x59 
+[00:00:06.222,045] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:06.222,076] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:06.222,076] <dbg> ble_scanner: device_found: 0x01 
+--- 13 messages dropped ---
+[00:00:06.285,949] <dbg> ble_scanner: device_found: 0x06 
+[00:00:06.285,980] <dbg> ble_scanner: device_found: 0x44 
+[00:00:06.285,980] <dbg> ble_scanner: device_found: 0xDB 
+[00:00:06.292,297] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:06.292,297] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:06.292,327] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:06.292,327] <dbg> ble_scanner: device_found: 0x0E 
+[00:00:06.292,358] <dbg> ble_scanner: device_found: 0x08 
+--- 7 messages dropped ---
+[00:00:06.332,427] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.332,641] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.332,672] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:06.332,977] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.333,160] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.333,190] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+--- 7 messages dropped ---
+[00:00:06.338,714] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:06.338,745] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:06.338,775] <dbg> ble_scanner: device_found: 0x01 
+[00:00:06.338,775] <dbg> ble_scanner: device_found: 0x09 
+[00:00:06.338,806] <dbg> ble_scanner: device_found: 0x20 
+[00:00:06.338,836] <dbg> ble_scanner: device_found: 0x22 
+[00:00:06.338,867] <dbg> ble_scanner: device_found: 0x40 
+[00:00:06.338,897] <dbg> ble_scanner: device_found: 0x2E 
+--- 3 messages dropped ---
+[00:00:06.464,599] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 10 messages dropped ---
+[00:00:06.464,599] <dbg> ble_scanner: device_found: 0x01 
+[00:00:06.464,630] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:06.464,630] <dbg> ble_scanner: device_found: 0x20 
+[00:00:06.464,630] <dbg> ble_scanner: device_found: 0x22 
+[00:00:06.464,660] <dbg> ble_scanner: device_found: 0x9A 
+--- 8 messages dropped ---
+[00:00:06.510,894] <dbg> ble_scanner: device_found: 0x13 
+[00:00:06.510,925] <dbg> ble_scanner: device_found: 0x22 
+--- 9 messages dropped ---
+[00:00:06.512,878] <dbg> ble_scanner: device_found: Service Data UUID 0x0095
+[00:00:06.512,908] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:06.512,939] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:06.512,969] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:06.513,000] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:06.513,000] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 1 messages dropped ---
+[00:00:06.528,656] <dbg> ble_scanner: device_found: Advertisement data type 0x7 len 16 from 70:4A:06:CA:37:5E (random), HARC HI
+--- 17 messages dropped ---
+[00:00:06.577,667] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+--- 6 messages dropped ---
+[00:00:06.577,697] <dbg> ble_scanner: device_found: 0x10 
+[00:00:06.577,728] <dbg> ble_scanner: device_found: 0x07 
+[00:00:06.577,728] <dbg> ble_scanner: device_found: 0x33 
+[00:00:06.577,758] <dbg> ble_scanner: device_found: 0x1F 
+--- 1 messages dropped ---
+[00:00:06.577,819] <dbg> ble_scanner: device_found: 0x26 
+--- 10 messages dropped ---
+[00:00:06.693,634] <dbg> ble_scanner: device_found: 0x25 
+[00:00:06.693,664] <dbg> ble_scanner: device_found: 0x9E 
+--- 9 messages dropped ---
+[00:00:06.747,100] <dbg> ble_scanner: device_found: 0x20 
+[00:00:06.747,100] <dbg> ble_scanner: device_found: 0x22 
+[00:00:06.747,131] <dbg> ble_scanner: device_found: 0x8E 
+[00:00:06.747,131] <dbg> ble_scanner: device_found: 0x11 
+[00:00:06.747,161] <dbg> ble_scanner: device_found: 0x9D 
+[00:00:06.747,161] <dbg> ble_scanner: device_found: 0x13 
+[00:00:06.812,438] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:06.812,438] <dbg> ble_scanner: device_found: Manufacturer data (8 bytes): 
+--- 11 messages dropped ---
+[00:00:06.821,716] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.821,716] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:06.822,052] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.822,235] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:06.822,265] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:06.822,265] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+--- 5 messages dropped ---
+[00:00:06.822,418] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:06.830,871] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:06.830,902] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:06.830,932] <dbg> ble_scanner: device_found: 0x01 
+[00:00:06.830,932] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:06.830,963] <dbg> ble_scanner: device_found: 0x20 
+[00:00:06.830,993] <dbg> ble_scanner: device_found: 0x22 
+[00:00:06.831,024] <dbg> ble_scanner: device_found: 0x50 
+[00:00:06.831,024] <dbg> ble_scanner: device_found: 0xE6 
+[00:00:06.831,054] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:06.831,085] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:06.947,631] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:06.947,631] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:06.947,662] <dbg> ble_scanner: device_found: 0x01 
+[00:00:06.947,662] <dbg> ble_scanner: device_found: 0x09 
+[00:00:06.947,692] <dbg> ble_scanner: device_found: 0x20 
+[00:00:06.947,692] <dbg> ble_scanner: device_found: 0x22 
+[00:00:06.947,692] <dbg> ble_scanner: device_found: 0x95 
+--- 2 messages dropped ---
+[00:00:06.947,753] <dbg> ble_scanner: device_found: 0x59 
+[00:00:06.950,531] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0067
+[00:00:06.993,713] <dbg> ble_scanner: device_found: Service Data UUID 0xFEF3
+[00:00:06.993,743] <dbg> ble_scanner: device_found: Service Data UUID 0x174A
+[00:00:06.993,743] <dbg> ble_scanner: device_found: Service Data UUID 0x4123
+[00:00:06.993,743] <dbg> ble_scanner: device_found: Service Data UUID 0x3542
+--- 6 messages dropped ---
+[00:00:07.073,791] <dbg> ble_scanner: device_found: 0x22 
+--- 9 messages dropped ---
+[00:00:07.073,822] <dbg> ble_scanner: device_found: 0x40 
+[00:00:07.073,822] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:07.073,852] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:07.073,852] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:07.106,689] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.106,719] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+--- 11 messages dropped ---
+[00:00:07.229,705] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+--- 42 messages dropped ---
+[00:00:07.229,736] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:07.229,736] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:07.229,736] <dbg> ble_scanner: device_found: 0x0E 
+[00:00:07.229,766] <dbg> ble_scanner: device_found: 0x08 
+[00:00:07.229,797] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:07.229,827] <dbg> ble_scanner: device_found: 0x51 
+[00:00:07.229,858] <dbg> ble_scanner: device_found: 0x3F 
+--- 10 messages dropped ---
+[00:00:07.253,631] <dbg> ble_scanner: device_found: 0x9D 
+--- 10 messages dropped ---
+[00:00:07.299,194] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:07.308,715] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.308,715] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.308,746] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.308,776] <dbg> ble_scanner: device_found: 0x09 
+[00:00:07.308,807] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.308,807] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.308,837] <dbg> ble_scanner: device_found: 0x49 
+[00:00:07.308,868] <dbg> ble_scanner: device_found: 0x29 
+[00:00:07.308,898] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:07.308,929] <dbg> ble_scanner: device_found: 0x60 
+[00:00:07.364,898] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.364,929] <dbg> ble_scanner: device_found: Manufacturer data (8 bytes): 
+[00:00:07.364,929] <dbg> ble_scanner: device_found: 0x10 
+[00:00:07.364,929] <dbg> ble_scanner: device_found: 0x06 
+[00:00:07.364,959] <dbg> ble_scanner: device_found: 0x37 
+[00:00:07.364,959] <dbg> ble_scanner: device_found: 0x1D 
+[00:00:07.364,990] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:07.364,990] <dbg> ble_scanner: device_found: 0x52 
+[00:00:07.365,020] <dbg> ble_scanner: device_found: 0x41 
+[00:00:07.365,020] <dbg> ble_scanner: device_found: 0x38 
+[00:00:07.371,978] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.372,009] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.372,039] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.372,039] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:07.372,070] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.372,100] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.372,131] <dbg> ble_scanner: device_found: 0x8E 
+[00:00:07.372,131] <dbg> ble_scanner: device_found: 0x11 
+[00:00:07.372,161] <dbg> ble_scanner: device_found: 0x9D 
+[00:00:07.372,192] <dbg> ble_scanner: device_found: 0x13 
+[00:00:07.410,034] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 49:13:9A:DC:6D:2E (random), C7 TEST HI
+[00:00:07.422,241] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.422,424] <dbg> ble_scanner: device_found: Advertisement data type 0xA len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.422,576] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.422,821] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.422,851] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:07.423,156] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.423,339] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.423,370] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:07.423,370] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:07.423,400] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+[00:00:07.423,431] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+[00:00:07.423,461] <dbg> ble_scanner: device_found: Service Data UUID 0x5220
+[00:00:07.423,492] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:07.423,492] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+[00:00:07.423,522] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:07.428,894] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:07.428,924] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+[00:00:07.428,955] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:07.428,985] <dbg> ble_scanner: device_found: Service Data UUID 0x2100
+[00:00:07.428,985] <dbg> ble_scanner: device_found: Service Data UUID 0x5BF6
+[00:00:07.467,864] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.467,895] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.467,895] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.467,926] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:07.467,926] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.467,956] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.467,987] <dbg> ble_scanner: device_found: 0x50 
+[00:00:07.468,017] <dbg> ble_scanner: device_found: 0xE6 
+[00:00:07.468,048] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:07.468,048] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:07.487,701] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.487,731] <dbg> ble_scanner: device_found: Manufacturer data (23 bytes): 
+[00:00:07.487,762] <dbg> ble_scanner: device_found: 0x12 
+[00:00:07.487,792] <dbg> ble_scanner: device_found: 0x02 
+[00:00:07.487,823] <dbg> ble_scanner: device_found: 0xAA 
+[00:00:07.487,823] <dbg> ble_scanner: device_found: 0x03 
+[00:00:07.487,854] <dbg> ble_scanner: device_found: 0x07 
+[00:00:07.487,884] <dbg> ble_scanner: device_found: 0x11 
+[00:00:07.487,915] <dbg> ble_scanner: device_found: 0x06 
+[00:00:07.487,945] <dbg> ble_scanner: device_found: 0x76 
+[00:00:07.489,501] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.489,532] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.489,562] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.489,593] <dbg> ble_scanner: device_found: 0x09 
+[00:00:07.489,593] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.489,624] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.489,654] <dbg> ble_scanner: device_found: 0x40 
+[00:00:07.489,685] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:07.489,685] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:07.489,715] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:07.537,261] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.537,292] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:07.537,292] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:07.537,322] <dbg> ble_scanner: device_found: 0x0E 
+[00:00:07.537,322] <dbg> ble_scanner: device_found: 0x08 
+[00:00:07.537,353] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:07.537,353] <dbg> ble_scanner: device_found: 0x51 
+[00:00:07.537,384] <dbg> ble_scanner: device_found: 0x3F 
+[00:00:07.537,384] <dbg> ble_scanner: device_found: 0x53 
+[00:00:07.537,384] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:07.544,738] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.544,738] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:07.544,769] <dbg> ble_scanner: device_found: 0x10 
+[00:00:07.544,769] <dbg> ble_scanner: device_found: 0x07 
+[00:00:07.544,799] <dbg> ble_scanner: device_found: 0x3A 
+[00:00:07.544,830] <dbg> ble_scanner: device_found: 0x1F 
+[00:00:07.544,860] <dbg> ble_scanner: device_found: 0xFC 
+[00:00:07.544,860] <dbg> ble_scanner: device_found: 0xFE 
+[00:00:07.544,891] <dbg> ble_scanner: device_found: 0x3A 
+[00:00:07.544,921] <dbg> ble_scanner: device_found: 0x39 
+[00:00:07.545,410] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.545,440] <dbg> ble_scanner: device_found: Manufacturer data (17 bytes): 
+[00:00:07.545,440] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.545,471] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,501] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,532] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,532] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,562] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,593] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.545,623] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.548,645] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.548,675] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:07.548,706] <dbg> ble_scanner: device_found: 0x01 
+--- 15 messages dropped ---
+[00:00:07.600,433] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:07.600,463] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:07.600,463] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:07.604,461] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+--- 10 messages dropped ---
+[00:00:07.654,937] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+--- 9 messages dropped ---
+[00:00:07.659,210] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+[00:00:07.659,240] <dbg> ble_scanner: device_found: 0x10 
+[00:00:07.659,271] <dbg> ble_scanner: device_found: 0x05 
+[00:00:07.659,271] <dbg> ble_scanner: device_found: 0x36 
+[00:00:07.659,301] <dbg> ble_scanner: device_found: 0x1C 
+[00:00:07.659,301] <dbg> ble_scanner: device_found: 0x06 
+[00:00:07.659,332] <dbg> ble_scanner: device_found: 0x44 
+--- 4 messages dropped ---
+[00:00:07.714,843] <dbg> ble_scanner: device_found: 0x10 
+[00:00:07.714,874] <dbg> ble_scanner: device_found: 0x05 
+[00:00:07.714,874] <dbg> ble_scanner: device_found: 0x23 
+[00:00:07.714,874] <dbg> ble_scanner: device_found: 0x98 
+[00:00:07.714,904] <dbg> ble_scanner: device_found: 0xCA 
+[00:00:07.714,904] <dbg> ble_scanner: device_found: 0x9C 
+[00:00:07.714,935] <dbg> ble_scanner: device_found: 0x76 
+[00:00:07.727,020] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.727,020] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:07.727,050] <dbg> ble_scanner: device_found: 0x01 
+--- 3 messages dropped ---
+[00:00:07.727,142] <dbg> ble_scanner: device_found: 0x52 
+[00:00:07.727,172] <dbg> ble_scanner: device_found: 0x02 
+[00:00:07.727,203] <dbg> ble_scanner: device_found: 0x14 
+[00:00:07.727,203] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:07.778,045] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0067
+[00:00:07.781,311] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.781,311] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.781,341] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.781,341] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:07.781,372] <dbg> ble_scanner: device_found: 0x20 
+--- 4 messages dropped ---
+[00:00:07.781,463] <dbg> ble_scanner: device_found: 0x13 
+--- 12 messages dropped ---
+[00:00:07.828,216] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.828,399] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.828,430] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:07.842,437] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.842,468] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.842,498] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.842,529] <dbg> ble_scanner: device_found: 0x09 
+[00:00:07.842,559] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.842,590] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.842,590] <dbg> ble_scanner: device_found: 0x49 
+[00:00:07.842,620] <dbg> ble_scanner: device_found: 0x29 
+[00:00:07.842,651] <dbg> ble_scanner: device_found: 0x3E 
+[00:00:07.842,681] <dbg> ble_scanner: device_found: 0x60 
+[00:00:07.892,761] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.892,761] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.892,791] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.892,791] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:07.892,822] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.892,822] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.892,852] <dbg> ble_scanner: device_found: 0x50 
+[00:00:07.892,852] <dbg> ble_scanner: device_found: 0xE6 
+[00:00:07.892,883] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:07.892,913] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:07.900,482] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:07.900,665] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+--- 8 messages dropped ---
+[00:00:07.910,705] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.910,736] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:07.910,736] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.910,766] <dbg> ble_scanner: device_found: 0x09 
+[00:00:07.910,766] <dbg> ble_scanner: device_found: 0x20 
+[00:00:07.910,797] <dbg> ble_scanner: device_found: 0x22 
+[00:00:07.910,827] <dbg> ble_scanner: device_found: 0x40 
+--- 3 messages dropped ---
+[00:00:07.911,865] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.911,895] <dbg> ble_scanner: device_found: Manufacturer data (4 bytes): 
+[00:00:07.911,926] <dbg> ble_scanner: device_found: 0x12 
+[00:00:07.911,956] <dbg> ble_scanner: device_found: 0x02 
+[00:00:07.911,956] <dbg> ble_scanner: device_found: 0x00 
+[00:00:07.911,987] <dbg> ble_scanner: device_found: 0x02 
+[00:00:07.946,929] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:07.946,960] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+[00:00:07.946,960] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:07.946,990] <dbg> ble_scanner: device_found: Service Data UUID 0x2100
+[00:00:07.947,021] <dbg> ble_scanner: device_found: Service Data UUID 0x5BF6
+[00:00:07.959,259] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:07.959,289] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:07.959,320] <dbg> ble_scanner: device_found: 0x10 
+[00:00:07.959,320] <dbg> ble_scanner: device_found: 0x07 
+[00:00:07.959,350] <dbg> ble_scanner: device_found: 0x33 
+[00:00:07.959,381] <dbg> ble_scanner: device_found: 0x1F 
+--- 3 messages dropped ---
+[00:00:07.959,503] <dbg> ble_scanner: device_found: 0xDE 
+[00:00:07.972,900] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:07.972,930] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+[00:00:07.972,961] <dbg> ble_scanner: device_found: 0x01 
+[00:00:07.972,991] <dbg> ble_scanner: device_found: 0x09 
+[00:00:07.972,991] <dbg> ble_scanner: device_found: 0x21 
+[00:00:07.973,022] <dbg> ble_scanner: device_found: 0x2A 
+--- 3 messages dropped ---
+[00:00:07.973,114] <dbg> ble_scanner: device_found: 0x9E 
+--- 9 messages dropped ---
+[00:00:08.030,456] <dbg> ble_scanner: device_found: 0x22 
+--- 10 messages dropped ---
+[00:00:08.030,456] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:08.030,487] <dbg> ble_scanner: device_found: 0xD6 
+[00:00:08.030,487] <dbg> ble_scanner: device_found: 0x21 
+[00:00:08.030,517] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:08.082,122] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:08.082,153] <dbg> ble_scanner: device_found: Manufacturer data (4 bytes): 
+--- 4 messages dropped ---
+[00:00:08.211,883] <dbg> ble_scanner: device_found: 0x05 
+--- 33 messages dropped ---
+[00:00:08.262,237] <dbg> ble_scanner: device_found: 0x05 
+--- 10 messages dropped ---
+[00:00:08.262,237] <dbg> ble_scanner: device_found: 0x23 
+[00:00:08.262,268] <dbg> ble_scanner: device_found: 0x98 
+[00:00:08.262,298] <dbg> ble_scanner: device_found: 0xCA 
+[00:00:08.262,329] <dbg> ble_scanner: device_found: 0x9C 
+[00:00:08.262,359] <dbg> ble_scanner: device_found: 0x76 
+[00:00:08.308,441] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 70:4A:06:CA:37:5E (random), HARC HI
+[00:00:08.308,593] <dbg> ble_scanner: device_found: Advertisement data type 0x7 len 16 from 70:4A:06:CA:37:5E (random), HARC HI
+[00:00:08.308,624] <dbg> ble_scanner: device_found: 128-bit UUID: 7D74F4BD-C74A-4431-862C-CCE884371592
+[00:00:08.309,143] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 70:4A:06:CA:37:5E (random), HARC HI
+[00:00:08.311,218] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:08.311,248] <dbg> ble_scanner: device_found: Manufacturer data (4 bytes): 
+[00:00:08.311,279] <dbg> ble_scanner: device_found: 0x12 
+[00:00:08.311,309] <dbg> ble_scanner: device_found: 0x02 
+[00:00:08.311,309] <dbg> ble_scanner: device_found: 0x00 
+[00:00:08.311,340] <dbg> ble_scanner: device_found: 0x01 
+[00:00:08.315,063] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:08.315,093] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:08.315,124] <dbg> ble_scanner: device_found: 0x01 
+[00:00:08.315,155] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:08.315,185] <dbg> ble_scanner: device_found: 0x20 
+[00:00:08.315,246] <dbg> ble_scanner: device_found: 0x22 
+[00:00:08.315,246] <dbg> ble_scanner: device_found: 0x8E 
+[00:00:08.315,277] <dbg> ble_scanner: device_found: 0x11 
+[00:00:08.315,307] <dbg> ble_scanner: device_found: 0x9D 
+[00:00:08.315,338] <dbg> ble_scanner: device_found: 0x13 
+[00:00:08.315,673] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.315,856] <dbg> ble_scanner: device_found: Advertisement data type 0xA len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.316,009] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.316,223] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.316,253] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:08.316,589] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.316,772] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:08.316,772] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:08.316,802] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:08.316,833] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+[00:00:08.316,864] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+[00:00:08.316,894] <dbg> ble_scanner: device_found: Service Data UUID 0x5220
+[00:00:08.316,894] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:08.316,925] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+[00:00:08.316,955] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:08.318,756] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:08.318,786] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:08.318,817] <dbg> ble_scanner: device_found: 0x01 
+[00:00:08.318,847] <dbg> ble_scanner: device_found: 0x09 
+[00:00:08.318,847] <dbg> ble_scanner: device_found: 0x20 
+[00:00:08.318,878] <dbg> ble_scanner: device_found: 0x22 
+[00:00:08.318,908] <dbg> ble_scanner: device_found: 0x40 
+--- 3 messages dropped ---
+[00:00:08.368,713] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:08.368,713] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:08.368,743] <dbg> ble_scanner: device_found: 0x01 
+--- 17 messages dropped ---
+[00:00:08.378,692] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:08.378,723] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:08.378,753] <dbg> ble_scanner: device_found: 0x01 
+--- 3 messages dropped ---
+[00:00:08.378,845] <dbg> ble_scanner: device_found: 0x9E 
+[00:00:08.378,875] <dbg> ble_scanner: device_found: 0x1B 
+[00:00:08.378,875] <dbg> ble_scanner: device_found: 0x55 
+[00:00:08.378,906] <dbg> ble_scanner: device_found: 0xF9 
+[00:00:08.383,056] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0067
+--- 3 messages dropped ---
+[00:00:08.561,614] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:08.561,614] <dbg> ble_scanner: device_found: 0x01 
+[00:00:08.561,645] <dbg> ble_scanner: device_found: 0x0F 
+--- 18 messages dropped ---
+[00:00:08.675,354] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:08.675,354] <dbg> ble_scanner: device_found: Service Data UUID 0x2015
+[00:00:08.675,384] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:08.675,384] <dbg> ble_scanner: device_found: Service Data UUID 0x0095
+[00:00:08.675,415] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:08.675,415] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 33 messages dropped ---
+[00:00:08.847,625] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:08.847,625] <dbg> ble_scanner: device_found: 0x51 
+[00:00:08.847,656] <dbg> ble_scanner: device_found: 0x3F 
+[00:00:08.847,656] <dbg> ble_scanner: device_found: 0x53 
+[00:00:08.847,686] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:08.978,271] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:08.978,302] <dbg> ble_scanner: device_found: Manufacturer data (21 bytes): 
+--- 3 messages dropped ---
+[00:00:08.978,332] <dbg> ble_scanner: device_found: 0x2A 
+[00:00:08.978,363] <dbg> ble_scanner: device_found: 0x52 
+--- 13 messages dropped ---
+[00:00:09.049,499] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:09.049,530] <dbg> ble_scanner: device_found: Manufacturer data (9 bytes): 
+[00:00:09.049,530] <dbg> ble_scanner: device_found: 0x10 
+[00:00:09.049,560] <dbg> ble_scanner: device_found: 0x07 
+[00:00:09.049,560] <dbg> ble_scanner: device_found: 0x33 
+--- 6 messages dropped ---
+[00:00:09.094,696] <dbg> ble_scanner: device_found: Manufacturer data (7 bytes): 
+--- 10 messages dropped ---
+[00:00:09.101,898] <dbg> ble_scanner: device_found: 0x09 
+--- 10 messages dropped ---
+[00:00:09.154,541] <dbg> ble_scanner: device_found: 0x20 
+[00:00:09.154,541] <dbg> ble_scanner: device_found: 0x22 
+[00:00:09.154,571] <dbg> ble_scanner: device_found: 0x40 
+[00:00:09.154,571] <dbg> ble_scanner: device_found: 0x2E 
+[00:00:09.154,602] <dbg> ble_scanner: device_found: 0xEE 
+[00:00:09.154,602] <dbg> ble_scanner: device_found: 0x6E 
+[00:00:09.167,755] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:09.167,785] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:09.167,785] <dbg> ble_scanner: device_found: 0x01 
+--- 5 messages dropped ---
+[00:00:09.167,907] <dbg> ble_scanner: device_found: 0xDD 
+[00:00:09.167,938] <dbg> ble_scanner: device_found: 0xBE 
+[00:00:09.169,555] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:09.169,586] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:09.169,616] <dbg> ble_scanner: device_found: 0x01 
+[00:00:09.169,616] <dbg> ble_scanner: device_found: 0x09 
+[00:00:09.169,647] <dbg> ble_scanner: device_found: 0x20 
+[00:00:09.169,677] <dbg> ble_scanner: device_found: 0x22 
+--- 3 messages dropped ---
+[00:00:09.169,769] <dbg> ble_scanner: device_found: 0xF6 
+[00:00:09.205,474] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.205,688] <dbg> ble_scanner: device_found: Advertisement data type 0xA len 1 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.205,871] <dbg> ble_scanner: device_found: Advertisement data type 0x2E len 6 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.206,054] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 3 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.206,054] <dbg> ble_scanner: device_found: Service Data UUID 0xFD20
+[00:00:09.217,956] <dbg> ble_scanner: device_found: Manufacturer ID: 0x0006
+[00:00:09.217,987] <dbg> ble_scanner: device_found: Manufacturer data (27 bytes): 
+[00:00:09.217,987] <dbg> ble_scanner: device_found: 0x01 
+[00:00:09.218,017] <dbg> ble_scanner: device_found: 0x09 
+[00:00:09.218,048] <dbg> ble_scanner: device_found: 0x20 
+[00:00:09.218,078] <dbg> ble_scanner: device_found: 0x22 
+[00:00:09.218,078] <dbg> ble_scanner: device_found: 0x9E 
+[00:00:09.218,109] <dbg> ble_scanner: device_found: 0x1B 
+[00:00:09.218,139] <dbg> ble_scanner: device_found: 0x55 
+[00:00:09.218,170] <dbg> ble_scanner: device_found: 0xF9 
+[00:00:09.266,387] <dbg> ble_scanner: device_found: Manufacturer ID: 0x004C
+[00:00:09.266,418] <dbg> ble_scanner: device_found: Manufacturer data (24 bytes): 
+[00:00:09.266,418] <dbg> ble_scanner: device_found: 0x0C 
+[00:00:09.266,418] <dbg> ble_scanner: device_found: 0x0E 
+[00:00:09.266,448] <dbg> ble_scanner: device_found: 0x08 
+[00:00:09.266,448] <dbg> ble_scanner: device_found: 0xE1 
+[00:00:09.266,479] <dbg> ble_scanner: device_found: 0x51 
+[00:00:09.266,510] <dbg> ble_scanner: device_found: 0x3F 
+[00:00:09.266,540] <dbg> ble_scanner: device_found: 0x53 
+[00:00:09.266,571] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:09.330,322] <dbg> ble_scanner: device_found: Advertisement data type 0x9 len 7 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.330,444] <dbg> ble_scanner: device_found: Advertisement data type 0x16 len 17 from 43:46:46:40:D2:F7 (random), HARC HI
+[00:00:09.330,474] <dbg> ble_scanner: device_found: Service Data UUID 0xFEFE
+[00:00:09.330,474] <dbg> ble_scanner: device_found: Service Data UUID 0x2204
+[00:00:09.330,505] <dbg> ble_scanner: device_found: Service Data UUID 0x8E33
+[00:00:09.330,505] <dbg> ble_scanner: device_found: Service Data UUID 0x064A
+[00:00:09.330,535] <dbg> ble_scanner: device_found: Service Data UUID 0x5220
+[00:00:09.330,566] <dbg> ble_scanner: device_found: Service Data UUID 0x1668
+[00:00:09.330,596] <dbg> ble_scanner: device_found: Service Data UUID 0x2543
+[00:00:09.330,627] <dbg> ble_scanner: device_found: Service Data UUID 0x1902
+[00:00:09.388,854] <dbg> ble_scanner: device_found: Advertisement data type 0x1 len 1 from 49:13:9A:DC:6D:2E (random), C7 TEST HI
+[00:00:09.397,247] <dbg> ble_scanner: device_found: Service Data UUID 0xFD44
+[00:00:09.397,277] <dbg> ble_scanner: device_found: Service Data UUID 0x004C
+[00:00:09.397,277] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 1 messages dropped ---
+[00:00:09.397,308] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:09.397,338] <dbg> ble_scanner: device_found: Service Data UUID 0x0095
+[00:00:09.397,369] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[00:00:09.397,369] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+--- 5 messages dropped ---
+[00:00:09.405,792] <dbg> ble_scanner: device_found: 0x01 
+[00:00:09.405,792] <dbg> ble_scanner: device_found: 0x0F 
+[00:00:09.405,822] <dbg> ble_scanner: device_found: 0x20 
+[00:00:09.405,853] <dbg> ble_scanner: device_found: 0x22 
+[00:00:09.405,883] <dbg> ble_scanner: device_found: 0x9A 
+[00:00:09.405,914] <dbg> ble_scanner: device_found: 0xD6 
+[00:00:09.405,914] <dbg> ble_scanner: device_found: 0x21 
+[00:00:09.405,944] <dbg> ble_scanner: device_found: 0xE0 
+[00:00:09.410,705] <dbg> ble_scanner: device_found: Service Data UUID 0xFE2C
+[00:00:09.410,736] <dbg> ble_scanner: device_found: Service Data UUID 0x3000
+[00:00:09.410,736] <dbg> ble_scanner: device_found: Service Data UUID 0x0000
+[
+* Connecting to /dev/tty.usbmodem0006822192261 (13s) - Error: No such file or directory, cannot open /dev/tty.usbmodem0006822192261
