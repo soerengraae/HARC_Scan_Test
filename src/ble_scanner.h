@@ -25,7 +25,9 @@ struct bt_device_node
 {
 	struct device_info info;
 	struct bt_device_node *next;
-} *discovered_devices = NULL;
+};
+
+extern struct bt_device_node *discovered_devices;
 
 /* BLE scanner functions */
 int ble_scanner_init(void);

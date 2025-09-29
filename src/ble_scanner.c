@@ -12,6 +12,8 @@ uint8_t hiCount = 0;
 
 struct k_work_delayable printDevicesWork;
 
+struct bt_device_node *discovered_devices = NULL;
+
 static void printDevicesHandler(struct k_work *work)
 {
 	(void)(work);
