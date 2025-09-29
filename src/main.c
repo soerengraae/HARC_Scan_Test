@@ -3,6 +3,7 @@
 #include <zephyr/logging/log.h>
 
 #include "ble_scanner.h"
+#include "uart_commands.h"
 
 LOG_MODULE_REGISTER(main, LOG_LEVEL_DBG);
 
@@ -22,7 +23,6 @@ static void bt_ready(int err)
 		return;
 	}
 
-	/* Start scanning for VCP devices */
 	ble_scanner_start();
 }
 
@@ -30,7 +30,12 @@ int main(void)
 {
 	int err;
 
-	LOG_INF("VCP Controller Application Starting");
+	/* Initialize UART commands */
+	err = uart_commands_init();
+	if (err) {
+		LOG_ERR("UART commands init failed (err %d)", err);
+		return err;
+	}
 
 	/* Initialize Bluetooth */
 	err = bt_enable(bt_ready);
@@ -38,6 +43,9 @@ int main(void)
 		LOG_ERR("Bluetooth init failed (err %d)", err);
 		return err;
 	}
+
+	/* Start UART command interface */
+	uart_commands_start();
 
 	return 0;
 }
